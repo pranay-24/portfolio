@@ -237,6 +237,27 @@ input, select, textarea {
 		text-align: right;
 	}
 
+
+	/* Example CSS for styling the resume link */
+.resume-link {
+	text-decoration: none;
+	color: #323433; /* Link color */
+	transition: color 0.2s; /* Smooth transition for color change */
+  }
+  
+  .resume-link:hover {
+	color: #596c61; /* Hover color */
+  }
+  
+  .resume-link h4 {
+	margin: 0; /* Remove default margin */
+  }
+  
+  .resume-link:hover h4 {
+	color: #596c61;; /* Hover color for the h4 element */
+  }
+
+  
 /* Row */
 
 	.row {
